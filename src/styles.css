@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body {
+  transition: 0.2s;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-box {
+  width: 24%;
+  height: 12%;
+  border: solid 1px black;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 3%;
+}
+
+.click {
+  width: 93%;
+  height: 34%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 2%;
+}
